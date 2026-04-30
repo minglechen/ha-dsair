@@ -239,10 +239,11 @@ class AirFlow(IntEnum):
     STRONG = 3
     SUPER_STRONG = 4
     AUTO = 5
+    QUIET = 6
 
 
 #_AIR_FLOW_NAME_LIST = ['最弱', '稍弱', '中等', '稍强', '最强', '自动']
-_AIR_FLOW_NAME_LIST = [FAN_LOW, '稍弱', FAN_MEDIUM, '稍强', FAN_HIGH, FAN_AUTO]
+_AIR_FLOW_NAME_LIST = [FAN_LOW, '稍弱', FAN_MEDIUM, '稍强', FAN_HIGH, FAN_AUTO, '静音']
 
 class Breathe(IntEnum):
     CLOSE = 0

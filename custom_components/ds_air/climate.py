@@ -36,7 +36,7 @@ _SUPPORT_FLAGS = ClimateEntityFeature.TARGET_TEMPERATURE | ClimateEntityFeature.
 if (MAJOR_VERSION, MINOR_VERSION) >= (2024, 2):
     _SUPPORT_FLAGS |= ClimateEntityFeature.TURN_ON | ClimateEntityFeature.TURN_OFF
 
-FAN_LIST = [ FAN_LOW, '稍弱', FAN_MEDIUM, '稍强', FAN_HIGH, FAN_AUTO]
+FAN_LIST = [ FAN_LOW, '稍弱', FAN_MEDIUM, '稍强', FAN_HIGH, FAN_AUTO, '静音']
 SWING_LIST = ['➡️', '↘️', '⬇️', '↙️', '⬅️', '↔️', '🔄']
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
